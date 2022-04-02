@@ -1,6 +1,6 @@
 ---
-title: ''
-date: 
+title: 'Title'
+date: \today
 documentclass: report
 author: 
 - "Castellucci Matteo"
