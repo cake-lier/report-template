@@ -14,11 +14,11 @@ jobs:
         id: files_list
         run: echo "::set-output name=files::$(printf '%s ' *.md)"
       - name: Convert with pandoc
-        uses: docker://pandoc/latex:2.9
+        uses: docker://pandoc/latex:2.17
         with:
           args: >-
             -o report.pdf
-            -F pandoc-citeproc
+            --citeproc
             -N
             --metadata-file=metadata.yml
             --bibliography=bibliography.bib
