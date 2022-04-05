@@ -50,9 +50,9 @@
   </info>
   <locale xml:lang="en">
     <terms>
-      <term name="chapter" form="short">ch.</term>
-      <term name="presented at">presented at the</term>
-      <term name="available at">available</term>
+      <term name="chapter" form="short">cap.</term>
+      <term name="presented at">presentato al</term>
+      <term name="available at">disponibile presso</term>
     </terms>
   </locale>
   <!-- Macros -->
