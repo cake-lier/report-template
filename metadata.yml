@@ -1,5 +1,5 @@
 ---
-title: 'Title'
+title: 'Titolo'
 date: \today
 documentclass: report
 author: 
@@ -16,6 +16,7 @@ header-includes:
   \usepackage{indentfirst}
   \usepackage{float}
   \usepackage{graphicx}
+  \usepackage{tabularx}
   ```
 indent: true
 fontsize: 12pt
